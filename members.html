@@ -468,6 +468,72 @@ end-->
   </section>
 
 
+  <section id="actives" class="actives section-bg">
+    <header class="section-header">
+      <h3>KTP Alumni</h3>
+    </header>
+  
+      <div class="container" id="alumniContainer">
+  
+          <script>
+            function loadFile(filePath) {
+              var result = null;
+              var xmlhttp = new XMLHttpRequest();
+              xmlhttp.open("GET", filePath, false);
+              xmlhttp.send();
+              if (xmlhttp.status == 200) {
+                result = xmlhttp.responseText;
+              }
+              return result;
+            }
+            
+            var csv = loadFile("assets/alumniList.csv");
+            var rows = csv.split('\n');
+            var memberContainer = document.getElementById("alumniContainer");
+            var newRow = document.createElement('div');
+            newRow.className = "row justify-content-center";
+            memberContainer.appendChild(newRow);
+            
+            for (var i = 1; i < rows.length - 1; i++) {
+              var cols = rows[i].split(',');
+              var alumniName = cols[0] + " " + cols[1];
+              var alumniImage = cols[5];
+              var alumniPledgeClass = cols[6];
+              var alumniGradYear = cols[7];
+              var alumniLinkedIn = cols[8];
+            
+              var alumniHTML = `
+                <div class="active-item col-4 col-sm-3 col-md-2">
+                  <div class="eboard-img">
+                    <figure>
+                      <div class="member-img">
+                        <img src="${alumniImage}" alt="${alumniName}" class="square-rounded">
+                        <div class="pic-overlay">
+                          <div class="box">
+                            <a class="button" href="${alumniLinkedIn}" target="_blank" title="LinkedIn">
+                              <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+                            </a>
+                             <!-- <p class="overlay-text">${alumniPledgeClass} | ${memberGradYear}</p> -->
+                             <p class="overlay-text">${alumniPledgeClass}</p> 
+                          </div>
+                        </div>
+                      </div>
+                      <h4>${alumniName}</h4>
+                    </figure>
+                  </div>
+                </div>
+              `;
+  
+            
+              newRow.innerHTML += alumniHTML;
+            }
+  
+          </script>
+      </div>
+  
+    </section>
+
+
 
         <!-- =======  Alumni Section ======= -->      <!--comment start
       <section id="intro-alumni" class="alumni">
