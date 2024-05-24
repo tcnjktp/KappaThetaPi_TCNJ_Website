@@ -965,7 +965,7 @@ h3 {
   left: 0;
   right: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   opacity: 0;
   transition: .3s ease;
   background-color: var(--primary-dark);
@@ -984,6 +984,7 @@ h3 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  
 }
 
 #eboard .text {
@@ -1007,6 +1008,7 @@ h3 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  
 }
 
 #eboard .fa-external-link {
@@ -1027,6 +1029,20 @@ h3 {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  display: flex;
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: var(--primary-dark); */
 }
 #eboard .overlay:target {
   visibility: visible;
@@ -1073,6 +1089,7 @@ h3 {
 
 #eboard .popup .close:hover {
   color: var(--primary-medium);
+  
 }
 #eboard .popup .content {
   max-height: 30%;
@@ -1084,6 +1101,7 @@ h3 {
 #eboard @media screen and (max-width: 700px){
   .box{
     width: 70%;
+    
   }
   .popup{
     width: 70%;
@@ -1142,6 +1160,7 @@ h3 {
 
 #actives .active-item:hover .overlay-text {
   display: block; /* Show text on hover */
+  
 }
 
 #actives .active-item .icon {
