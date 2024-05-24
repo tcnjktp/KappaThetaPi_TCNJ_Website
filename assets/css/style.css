@@ -457,6 +457,7 @@ h3 {
   #hero {
     background: #f5f8fd url("../img/home/KTP.png") center top no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 }
 
