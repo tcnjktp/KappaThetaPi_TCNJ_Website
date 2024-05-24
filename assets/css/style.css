@@ -473,12 +473,14 @@ h3 {
     /* margin-left: 50%; */
   }
 }
-
+#hero .intro-info h3 { 
+  font-size: 40px;
+}
 #hero .intro-info h2 {
   color: var(--primary-dark);
   margin-top: 10%;
   margin-bottom: 10px;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 700;
   -webkit-text-stroke: 1px #000;
 }
@@ -528,7 +530,7 @@ h3 {
 /* Sections Header
 --------------------------------*/
 .section-header h3 {
-  font-size: 32px;
+  font-size: 40px;
   color: var(--primary-dark);
   text-align: center;
   font-weight: 700;
