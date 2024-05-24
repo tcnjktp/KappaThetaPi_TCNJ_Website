@@ -929,7 +929,6 @@ h3 {
   font-size: 16px;
 }
 
-
 #eboard .eboard-img figure{
   position: relative;
 }
@@ -948,17 +947,14 @@ h3 {
 
 #eboard .eboard-img figure img {
   margin: 0 auto;
-  #width: 100%;
-  #height: auto;
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: auto;
 }
 
 #eboard .eboard-img figure figcaption {
   text-align: center;
 
 }
-
 
 #eboard .pic-overlay {
   position: absolute;
@@ -973,7 +969,6 @@ h3 {
   background-color: var(--primary-dark);
 }
 
-
 #eboard .eboard-item:hover .pic-overlay {
   opacity: 0.8;
 }
@@ -986,7 +981,6 @@ h3 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  
 }
 
 #eboard .text {
@@ -1010,7 +1004,6 @@ h3 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  
 }
 
 #eboard .fa-external-link {
@@ -1031,18 +1024,7 @@ h3 {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
-  z-index: 10;
-  /* display: flex; */
-  /* position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: var(--primary-dark); */
+  z-index: 1;
 }
 #eboard .overlay:target {
   visibility: visible;
@@ -1058,6 +1040,7 @@ h3 {
   position: relative;
   transition: all 5s ease-in-out;
   top: 20%;
+  z-index: 1;
 }
 
 #eboard .popup h1 {
@@ -1089,24 +1072,26 @@ h3 {
 
 #eboard .popup .close:hover {
   color: var(--primary-medium);
-  
 }
 #eboard .popup .content {
   max-height: 30%;
   overflow: auto;
   text-align: center;
   padding-bottom: 10px;
+  z-index: 99;
 }
 
-#eboard @media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-    
+#eboard @media screen and (max-width: 500px){
+
+   .box{
+    width: 100%;
   }
-  .popup{
-    width: 70%;
+   .popup{
+    width: 90%;
   }
 }
+
+
 
 /* Active Members Items */
 #actives .active-item {
