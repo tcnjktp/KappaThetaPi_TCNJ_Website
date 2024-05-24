@@ -455,7 +455,7 @@ h3 {
 
 @media (min-width: 1065px) {
   #hero {
-    background: #f5f8fd url("../img/home/landing.png") center top no-repeat;
+    background: #f5f8fd url("../img/home/KTP.png") center top no-repeat;
     background-size: cover;
   }
 }
@@ -480,20 +480,24 @@ h3 {
   margin-bottom: 10px;
   font-size: 48px;
   font-weight: 700;
+  -webkit-text-stroke: 1px #000;
 }
 
 #hero .intro-info h2 span {
   color: var(--primary-medium);
+  
 }
 
 .intro-info h3{
   color: var(--primary-medium);
+  -webkit-text-stroke: 0.75px #000;
 }
 
 @media (max-width: 1065px) {
   #hero .intro-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
+    
   }
 }
 
@@ -511,6 +515,7 @@ h3 {
   color: var(--white);
   background: var(--secondary-medium);
   color: var(--white);
+  
 }
 
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
