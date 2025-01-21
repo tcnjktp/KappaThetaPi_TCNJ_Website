@@ -40,6 +40,10 @@ p {
   margin: 0 0 30px 0;
 }
 
+.p-special {
+  margin: 0 0 0px 0;
+}
+
 h1, h2, h3, h4 {
   font-family: var(--font-title);
   font-weight: 400;
@@ -49,7 +53,7 @@ h1, h2, h3, h4 {
 }
 
 h3 {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 /* Back to top button */
@@ -802,7 +806,6 @@ h3 {
   color: var(--primary-dark);
   font-family: var(--font-title);
   font-weight: 700;
-  padding-top: 30px;
 }
 
 .apply-content h4{
@@ -844,7 +847,6 @@ h3 {
 /* Frequently Asked Questions Section
 --------------------------------*/
 #faq {
-  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -1994,4 +1996,37 @@ h3 {
   font-weight: bold;
   /* -webkit-text-stroke: 2px black; */
   font-weight: bold;
+}
+
+/* Container to center the button */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Blue button styling */
+.blue-button {
+  display: inline-block;
+  padding: 20px 40px; /* Increased padding for a bigger button */
+  background-color: var(--primary-medium); /* Use your primary blue color */
+  color: var(--white); /* Use your white color */
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: 24px; /* Increased font size */
+  border-radius: 8px; /* Slightly rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.blue-button:hover {
+  background-color: var(--primary-dark); /* Darker blue on hover */
+  color: var(--white); /* Keep the text color the same */
+}
+
+.blue-button:link,
+.blue-button:visited,
+.blue-button:hover,
+.blue-button:active {
+  color: var(--white); /* Force text color to stay white */
 }
