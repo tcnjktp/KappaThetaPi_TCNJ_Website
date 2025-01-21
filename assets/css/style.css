@@ -1164,27 +1164,66 @@ h3 {
 
 }
 
-/* Active Members Items */
+/* E-BOARD */
+#eboard .eboard-item {
+  width: 16.666%; /* 6 items per row */
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+#eboard .eboard-img figure img {
+  width: 175px; /* Explicit width for the image */
+  height: 175px; /* Explicit height for the image */
+  object-fit: cover; /* Ensures the image covers the assigned area */
+}
+
+/* G-BOARD */
+#directors .eboard-item {
+  width: 16.666%; /* 6 items per row */
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+#directors .eboard-img figure img {
+  width: 175px; /* Explicit width for the image */
+  height: 175px; /* Explicit height for the image */
+  object-fit: cover; /* Ensures the image covers the assigned area */
+}
+
+/* ALUMNI */
+#alumni .alumni-item {
+  width: 16.666%; /* 6 items per row */
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+#alumni .alumni-img img {
+  width: 175px; /* Explicit width for the image */
+  height: 175px; /* Explicit height for the image */
+  object-fit: cover; /* Ensures the image covers the assigned area */
+}
+
+/* ACTIVES */
 #actives .active-item {
-  width: 20%;
-  margin: 0.5rem; /* Spacing around each item */
-  padding-top: 0.5rem; /* Space above the item */
-  padding-bottom: 1rem; /* Space below the item, only affects spacing, not size */
-  position: relative; /* Necessary for positioning children absolutely */
+  width: 16.666%; /* 6 items per row */
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  position: relative;
 }
 
 #actives .active-item .eboard-img {
-  width: 150px;  /* Explicit width for the image container */
-  height: 150px; /* Explicit height for the image container */
-  margin: auto;  /* Centers the image container within the column */
+  width: 175px; /* Explicit width for the image container */
+  height: 175px; /* Explicit height for the image container */
+  margin: auto; /* Centers the image container within the column */
   margin-bottom: 20px;
   position: relative; /* Context for positioning the overlay */
 }
 
 #actives .active-item .eboard-img img {
-  width: 150px;  /* Explicit width for the image */
-  height: 150px; /* Explicit height for the image */
-  border-radius: 8px; /* Rounded corners for the image */
+  width: 175px; /* Explicit width for the image */
+  height: 175px; /* Explicit height for the image */
   object-fit: cover; /* Ensures the image covers the assigned area */
 }
 
@@ -1216,7 +1255,6 @@ h3 {
 
 #actives .active-item:hover .overlay-text {
   display: block; /* Show text on hover */
-  
 }
 
 #actives .active-item .icon {
@@ -1243,11 +1281,6 @@ h3 {
   font-family: var(--font-body);
   font-size: 16px;
 }
-
-
-
-
-
 
 /* Old Actives Section
 #actives {
@@ -1884,7 +1917,6 @@ h3 {
   width: 150px; 
   height: 150px;
   object-fit: cover; /* This will ensure the image covers the area without stretching */
-  border-radius: 10px; /* Adjust the border-radius as needed for rounded corners */
 }
 
 .member-section {
