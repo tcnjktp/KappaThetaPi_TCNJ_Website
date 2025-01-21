@@ -530,6 +530,15 @@ h3 {
 --------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
+.section-header h1 {
+  font-size: 70px;
+  color: var(--primary-dark);
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: var(--font-title);
+}
+
 .section-header h3 {
   font-size: 40px;
   color: var(--primary-dark);
@@ -1143,8 +1152,6 @@ h3 {
 
 #directors .eboard-item{
   width: 20%;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 0.5rem;
 
   
@@ -1165,23 +1172,22 @@ h3 {
 }
 
 /* E-BOARD */
-#eboard .eboard-item {
+#eboard .eboard-item, #directors .eboard-item {
   width: 16.666%; /* 6 items per row */
   padding-top: 0.5rem;
   position: relative;
 }
 
-#eboard .eboard-img figure img {
+#eboard .eboard-img figure img, #directors .eboard-img figure img {
   width: 175px; /* Explicit width for the image */
   height: 175px; /* Explicit height for the image */
   object-fit: cover; /* Ensures the image covers the assigned area */
 }
 
-/* G-BOARD */
+/* Directors Section */
 #directors .eboard-item {
   width: 16.666%; /* 6 items per row */
   padding-top: 0.5rem;
-  padding-bottom: 1rem;
   position: relative;
 }
 
@@ -1191,6 +1197,42 @@ h3 {
   object-fit: cover; /* Ensures the image covers the assigned area */
 }
 
+#directors .pic-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: var(--primary-dark);
+}
+
+#directors .eboard-item:hover .pic-overlay {
+  opacity: 0.8;
+}
+
+#directors .icon {
+  color: white;
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#directors .text {
+  font-family: var(--font-title);
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 /* ALUMNI */
 #alumni .alumni-item {
   width: 16.666%; /* 6 items per row */
