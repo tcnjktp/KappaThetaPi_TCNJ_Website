@@ -234,10 +234,10 @@ h3 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
+/* .main-nav {
+  Drop Down
+  Deep Drop Down
+} */
 
 .main-nav, .main-nav * {
   margin: 0;
@@ -1093,7 +1093,7 @@ h3 {
   z-index: 99;
 }
 
-#eboard @media screen and (max-width: 500px){
+/* #eboard @media screen and (max-width: 500px){
 
    .box{
     width: 100%;
@@ -1101,8 +1101,15 @@ h3 {
    .popup{
     width: 90%;
   }
+} */
+@media screen and (max-width: 500px) {
+  .box {
+    width: 100%;
+  }
+  .popup {
+    width: 90%;
+  }
 }
-
 
 #directors {
   padding-top: 45px;
