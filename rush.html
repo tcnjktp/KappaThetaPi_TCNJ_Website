@@ -37,6 +37,10 @@
   <!-- CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+</head>
+
+<body id="top">
+
   <!-- ======= Header ======= -->
   <header id="header" class="header-inner-pages">
 
@@ -54,13 +58,13 @@
     <div class="container">
 
       <div class="logo float-left">
-            <!-- <a href="home.html" class="scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1><a href="index.html#top"><img src="assets/img/KTP_Logos_Letters_KTP_Logo.png" alt="KTP Logo" class="logo-img"></a><span class="logo-school">&lt;at TCNJ&gt;</span></h1>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#top" class="home-link">Home</a></li>
+          <li><a href="index.html#history">About</a></li>
           <li><a href="rush.html" style="color: var(--primary-medium);">Rush</a></li>
           <li class="drop-down"><a href="members.html">Members</a>
             <ul>
@@ -80,71 +84,131 @@
 
 </head>
 
-<body>
-  <!-- =======  Apply Section ======= -->
+  <main id="rush-content-wrapper" style="position: relative; overflow: hidden; background: #fff;">
+    <!-- Aura Circles -->
+    <div class="rush-aura-container">
+      <div class="glow-aura aura-blue" style="width: 500px; height: 500px; top: -100px; left: -100px;"></div>
+      <div class="glow-aura aura-green" style="width: 450px; height: 450px; top: 15%; right: -100px;"></div>
+      <div class="glow-aura aura-blue" style="width: 400px; height: 400px; top: 40%; left: -50px;"></div>
+      <div class="glow-aura aura-green" style="width: 550px; height: 550px; top: 60%; right: 10%;"></div>
+      <div class="glow-aura aura-blue" style="width: 500px; height: 500px; bottom: 5%; left: 15%;"></div>
+    </div>
 
-  <!-- S25 Dates:
-    Info Sessions - 2/10, 2/13, 2/19
-    Meet The Brothers - 2/21 6pm-8pm
-    Applications Open - 2/21 to 2/24
-    Interviews - 2/25 to 2/26
-    Interest Form - https://docs.google.com/forms/d/1RA0WeeKMgjsdrc_ql8Uz7ojrXfEk3lJAkRTLAsyQhiM
-  -->
-  <section id="apply" class="apply-content">
-    <div class="container">
-        <div class="section-header">
-          <h1>Fall 2025 Recruitment</h1>
-          <br>
+    <!-- ======= Rush Hero Section ======= -->
+    <section id="rush-hero" style="position: relative; background: transparent; padding: 100px 0 80px; text-align: center;">
+
+    <div class="container" style="position: relative; z-index: 1;">
+      <h1 style="font-family: var(--font-title); font-size: 52px; font-weight: 800; color: var(--black); margin-bottom: 25px; line-height: 1.1;">Learn About Joining KTP!</h1>
+      <p style="font-family: var(--font-body); font-size: 18px; color: #5a5a5a; margin-bottom: 10px; font-weight: 500;">Welcome to Kappa Theta Pi's Spring 2026 Rush!</p>
+      <p style="font-family: var(--font-body); font-size: 18px; color: #5a5a5a; margin-bottom: 40px; font-weight: 500;">Here's our rush schedule. Applications are due soon!</p>
+      
+      <!-- Video Area (Moved Above Buttons) -->
+      <div style="max-width: 600px; margin: 0 auto 40px; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.15); border: 1px solid #eee;">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+            src="https://www.youtube.com/embed/qPgY4mxbv9I" 
+            title="KTP Recruitment Video" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
         </div>
-          <p>Welcome to KTP's Fall 2025 Recruitment!
-            Below you can find everything about our upcoming information and recruitment events.</p>
-          <p>We hope to see you there and are so excited to meet you!</p>
-          
-          <div class="section-header">
-            <h3>Apply</h3>
-          </div>
-          <p>Applications open on September 19th at 7 PM and close on September 22nd at 7 PM.</p>
-          <p>We will conduct interviews on September 23rd and 24th, and the rush process will begin shortly after.</p>
-          <div class="button-container">
-            <a href="https://forms.gle/YSqkxVm8JdNaP8bo6" target="_blank" class="blue-button"><strong>Apply to Join KTP</strong></a>
-          </div>
-          <br/><br/>
-          
-          <div class="section-header">
-            <h3>Meet the Brothers</h3>
-          </div>
-          <p>This is a <strong>MANDATORY</strong> session where you can get to know the current members of KTP and ask questions about the organization.</p>
-          <p class="p-special">September 19th | 6 - 8 PM | STEM 102</p>
-        </div>
-        <br/><br/>
+      </div>
 
-          <div class="section-header">
-            <h3>Information Sessions</h3>
-          </div>
-          <p>These sessions are can help you learn more about our organization and what we do on campus! You must attend <strong>AT LEAST ONE</strong> info session in order to be considered for recruitment.</p>
-
-          <div style="display: flex;">
-            <div style="flex: 1;">
-              <p class="p-special" style="font-size: 22px;"><strong>Information Session #1</strong></p>
-              <p class="p-special">September 10th | 8:30 PM | STEM 102</p>
-            </div>
-            <div style="flex: 1;">
-              <p class="p-special" style="font-size: 22px;"><strong>Information Session #2</strong></p>
-              <p class="p-special">September 16th | 8:30 PM | STEM 102</p>
-            </div>
-            <div style="flex: 1;">
-              <p class="p-special" style="font-size: 22px;"><strong>Information Session #3</strong></p>
-              <p class="p-special">September 18th | 8:30 PM | STEM 102</p>
-            </div>
-          </div>
-          <br/><br/>
-          <div class="button-container">
-            <a href="https://forms.gle/wnZz7j2WCtJDMx1i9" target="_blank" class="blue-button"><strong>Interest Form</strong></a>
-          </div>
+      <div style="display: flex; gap: 20px; justify-content: center; margin-bottom: 0;">
+        <a href="https://forms.gle/KMHLAEMmccYPrrCd7" target="_blank" class="btn-hero-primary" style="background: linear-gradient(to right, var(--primary-dark), var(--primary-medium)); color: white; padding: 14px 32px; border-radius: 10px; text-decoration: none; font-family: var(--font-title); font-weight: 700; text-transform: uppercase; font-size: 15px; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(35, 76, 139, 0.25);">Interest Form</a>
+        <a href="https://forms.gle/v3hMjtq3d1UeYC2Q8" target="_blank" class="btn-hero-primary" style="background: linear-gradient(to right, var(--primary-dark), var(--primary-medium)); color: white; padding: 14px 32px; border-radius: 10px; text-decoration: none; font-family: var(--font-title); font-weight: 700; text-transform: uppercase; font-size: 15px; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(35, 76, 139, 0.25);">Application Link</a>
+      </div>
     </div>
   </section>
 
-  <!-- =======  Interactive Rush Timeline =======
+  <!-- ======= Rush Timeline Section ======= -->
+  <section id="rush-timeline" style="padding: 80px 0; background: transparent; position: relative;">
+    <!-- Container with relative positioning for the absolute line -->
+    <div class="container" style="max-width: 800px; position: relative; z-index: 1;">
+      
+      <!-- Continuous Dashed Line (Centered at 30px from the left of container content area) -->
+      <div style="position: absolute; left: 44px; top: 16px; bottom: 0; width: 0; border-left: 2px dashed #ddd; z-index: 0;"></div>
+      
+      <!-- Timeline Item 1 -->
+      <div class="timeline-item" style="padding-left: 70px; margin-bottom: 60px; position: relative;">
+        <!-- Blue Dot (Centered horizontally on the 30px line, vertically aligned with title center) -->
+        <div style="position: absolute; left: 30px; top: 16px; width: 14px; height: 14px; background: var(--primary-medium); border-radius: 50%; z-index: 1; box-shadow: 0 0 0 4px white; transform: translate(-50%, -50%);"></div>
+        
+        <div style="flex-grow: 1;">
+          <h3 style="font-family: var(--font-title); font-size: 28px; font-weight: 700; color: var(--black); margin-bottom: 15px; text-align: left; line-height: 1.2; padding-top: 0;">Info Session 1</h3>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 8px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"></path></svg>
+            Tuesday, February 11th, 8:30 PM
+          </p>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 20px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M200,224H150.54A266.56,266.56,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25a88,88,0,0,0-176,0c0,31.4,14.51,64.68,42,96.25A266.56,266.56,0,0,0,105.46,224H56a8,8,0,0,0,0,16H200a8,8,0,0,0,0-16ZM56,104a72,72,0,0,1,144,0c0,57.23-55.47,105-72,118C111.47,209,56,161.23,56,104Zm112,0a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Z"></path></svg>
+            SSB 128
+          </p>
+          <p style="font-family: var(--font-body); font-size: 16px; color: #555; line-height: 1.6; max-width: 700px;">Join us for our first information session! Learn more about our organization, what we do on campus, and how you can get involved this semester. Whether you're curious about the rush process or just want to see what KTP is all about, we'd love to talk to you!</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 2 -->
+      <div class="timeline-item" style="padding-left: 70px; margin-bottom: 60px; position: relative;">
+        <!-- Blue Dot -->
+        <div style="position: absolute; left: 30px; top: 16px; width: 14px; height: 14px; background: var(--primary-medium); border-radius: 50%; z-index: 1; box-shadow: 0 0 0 4px white; transform: translate(-50%, -50%);"></div>
+        
+        <div style="flex-grow: 1;">
+          <h3 style="font-family: var(--font-title); font-size: 28px; font-weight: 700; color: var(--black); margin-bottom: 15px; text-align: left; line-height: 1.2; padding-top: 0;">Info Session 2</h3>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 8px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"></path></svg>
+            Monday, February 17th, 8:30 PM
+          </p>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 20px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M200,224H150.54A266.56,266.56,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25a88,88,0,0,0-176,0c0,31.4,14.51,64.68,42,96.25A266.56,266.56,0,0,0,105.46,224H56a8,8,0,0,0,0,16H200a8,8,0,0,0,0-16ZM56,104a72,72,0,0,1,144,0c0,57.23-55.47,105-72,118C111.47,209,56,161.23,56,104Zm112,0a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Z"></path></svg>
+            SSB 128
+          </p>
+          <p style="font-family: var(--font-body); font-size: 16px; color: #555; line-height: 1.6; max-width: 700px;">Couldn't make it to the first session? No problem! Join us for our second information session to learn about KTP, meet our members, and ask any questions you may have about our professional development, social events, and rush process.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 3 -->
+      <div class="timeline-item" style="padding-left: 70px; margin-bottom: 60px; position: relative;">
+        <!-- Blue Dot -->
+        <div style="position: absolute; left: 30px; top: 16px; width: 14px; height: 14px; background: var(--primary-medium); border-radius: 50%; z-index: 1; box-shadow: 0 0 0 4px white; transform: translate(-50%, -50%);"></div>
+        
+        <div style="flex-grow: 1;">
+          <h3 style="font-family: var(--font-title); font-size: 28px; font-weight: 700; color: var(--black); margin-bottom: 15px; text-align: left; line-height: 1.2; padding-top: 0;">Info Session 3</h3>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 8px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"></path></svg>
+            Wednesday, February 19th, 8:30 PM
+          </p>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 20px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M200,224H150.54A266.56,266.56,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25a88,88,0,0,0-176,0c0,31.4,14.51,64.68,42,96.25A266.56,266.56,0,0,0,105.46,224H56a8,8,0,0,0,0,16H200a8,8,0,0,0,0-16ZM56,104a72,72,0,0,1,144,0c0,57.23-55.47,105-72,118C111.47,209,56,161.23,56,104Zm112,0a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Z"></path></svg>
+            SSB 128
+          </p>
+          <p style="font-family: var(--font-body); font-size: 16px; color: #555; line-height: 1.6; max-width: 700px;">Last chance to attend an information session! Come learn about what makes KTP special, hear about our members' experiences, and discover how you can become part of our tech community. You must attend at least one info session to be considered for recruitment.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 4 -->
+      <div class="timeline-item" style="padding-left: 70px; margin-bottom: 60px; position: relative;">
+        <!-- Blue Dot -->
+        <div style="position: absolute; left: 30px; top: 16px; width: 14px; height: 14px; background: var(--primary-medium); border-radius: 50%; z-index: 1; box-shadow: 0 0 0 4px white; transform: translate(-50%, -50%);"></div>
+        
+        <div style="flex-grow: 1;">
+          <h3 style="font-family: var(--font-title); font-size: 28px; font-weight: 700; color: var(--black); margin-bottom: 15px; text-align: left; line-height: 1.2; padding-top: 0;">Meet the Brothers</h3>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 8px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"></path></svg>
+            Time: 5:00 PM - 7:00 PM
+          </p>
+          <p style="font-family: var(--font-body); font-size: 15px; color: #444; margin-bottom: 20px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M200,224H150.54A266.56,266.56,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25a88,88,0,0,0-176,0c0,31.4,14.51,64.68,42,96.25A266.56,266.56,0,0,0,105.46,224H56a8,8,0,0,0,0,16H200a8,8,0,0,0,0-16ZM56,104a72,72,0,0,1,144,0c0,57.23-55.47,105-72,118C111.47,209,56,161.23,56,104Zm112,0a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Z"></path></svg>
+            STEM 102
+          </p>
+          <p style="font-family: var(--font-body); font-size: 16px; color: #555; line-height: 1.6; max-width: 700px;">This is your chance to get to know the current members of KTP in a more casual setting! Meet our brothers, ask questions about the organization, and learn what it's really like to be part of the KTP community. This is a great opportunity to see if KTP is the right fit for you!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======  Interactive Rush Timeline (OLD - KEEP FOR NOW) =======
   <section id="events">
   <section id="values" class="values section-bg">
     <div class="container">
@@ -249,7 +313,7 @@
 
 
   <!-- ======= FAQs Section ======= -->
-  <section id="faq" class="faq wow fadeInUp">
+  <section id="faq" class="faq wow fadeInUp" style="background: transparent;">
     <div class="container">
       <header class="section-header">
         <h3>Frequently Asked Questions</h3>
@@ -313,6 +377,7 @@
 
     </div>
   </section><!-- End FAQs Section -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="section-bg">

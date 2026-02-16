@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,6 +36,11 @@
 
   <!-- CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/members-cards.css" rel="stylesheet">
+
+</head>
+
+<body id="top">
 
   <!-- ======= Header ======= -->
   <header id="header" class="header-inner-pages">
@@ -54,18 +59,18 @@
     <div class="container">
 
       <div class="logo float-left">
-            <!-- <a href="home.html" class="scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1><a href="index.html#top"><img src="assets/img/KTP_Logos_Letters_KTP_Logo.png" alt="KTP Logo" class="logo-img"></a><span class="logo-school">&lt;at TCNJ&gt;</span></h1>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#top" class="home-link">Home</a></li>
+          <li><a href="index.html#history">About</a></li>
           <li><a href="rush.html">Rush</a></li>
           <li class="drop-down"><a href="members.html" style="color: var(--primary-medium);">Members</a>
             <ul>
               <li><a href="members.html#eboard">Executive Board</a></li>
-              <li><a href="members.html#directors">General Board</a></li>
+
               <li><a href="members.html#actives">Active Members</a></li>
               <li><a href="members.html#actives">Alumni</a></li>
             </ul>
@@ -78,15 +83,24 @@
     </div>
   </header><!-- #header -->
 
-</head>
+  <main id="members-content-wrapper" style="position: relative; overflow: hidden; background: #fff;">
+    <!-- Aura Circles (Unique Positions) -->
+    <div class="rush-aura-container">
+      <div class="glow-aura aura-green" style="width: 500px; height: 500px; top: -50px; left: -100px;"></div>
+      <div class="glow-aura aura-blue" style="width: 450px; height: 450px; top: 15%; right: -50px;"></div>
+      <div class="glow-aura aura-green" style="width: 400px; height: 400px; top: 35%; left: 10%;"></div>
+      <div class="glow-aura aura-blue" style="width: 550px; height: 550px; top: 55%; right: -100px;"></div>
+      <div class="glow-aura aura-green" style="width: 450px; height: 450px; bottom: 10%; right: 15%;"></div>
+      <div class="glow-aura aura-blue" style="width: 500px; height: 500px; bottom: 0%; left: 5%;"></div>
+    </div>
 
-<body>
-  <div class="member-section">
-    <img src="assets/img/GreenHallLong.jpg" alt="Team Picture" class="background-image">
+
+  <div class="member-section" style="background: transparent;">
+    <img src="assets/img/GreenHallLong.jpg" alt="Team Picture" class="background-image" style="opacity: 0.8;">
     <div class="centered-text">Meet Our Members</div>
   </div>
-    <!-- =======  EBoard Section ======= -->
-    <section id="eboard" class="eboard">
+    <!-- ======= EBoard Section ======= -->
+    <section id="eboard" class="eboard" style="background: transparent;">
 
       <header class="section-header">
         <h3>Executive Board</h3>
@@ -96,7 +110,7 @@
 
 
             <div class="row justify-content-center">
-                  <div class="eboard-item col-4 col-sm-3 col-md-2">
+                  <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="eboard-img">
                       <figure>
                         <div class="member-img">
@@ -114,7 +128,7 @@
                     </div>
                   </div>
 
-                  <div class="eboard-item col-4 col-sm-3 col-md-2">
+                  <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="eboard-img">
                       <figure>
                         <div class="member-img">
@@ -132,7 +146,7 @@
                     </div>
                   </div>
 
-                  <div class="eboard-item col-4 col-sm-3 col-md-2">
+                  <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="eboard-img">
                       <figure>
                         <div class="member-img">
@@ -151,7 +165,7 @@
                   </div>
 
 
-                <div class="eboard-item col-4 col-sm-3 col-md-2">
+                <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                   <div class="eboard-img">
                     <figure>
                       <div class="member-img">
@@ -169,7 +183,7 @@
                   </div>
                 </div>
 
-                <div class="eboard-item col-4 col-sm-3 col-md-2">
+                <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                   <div class="eboard-img">
                     <figure>
                       <div class="member-img">
@@ -187,7 +201,7 @@
                   </div>
                  </div>
   
-                <div class="eboard-item col-4 col-sm-3 col-md-2">
+                <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                   <div class="eboard-img">
                     <figure>
                       <div class="member-img">
@@ -205,7 +219,7 @@
                   </div>
                 </div>
   
-              <div class="eboard-item col-4 col-sm-3 col-md-2">
+              <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                 <div class="eboard-img">
                   <figure>
                     <div class="member-img">
@@ -223,7 +237,7 @@
                 </div>
               </div>
 
-              <div class="eboard-item col-4 col-sm-3 col-md-2">
+              <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                 <div class="eboard-img">
                   <figure>
                     <div class="member-img">
@@ -241,7 +255,7 @@
                 </div>
               </div>
 
-              <div class="eboard-item col-4 col-sm-3 col-md-2">
+              <div class="eboard-item col-6 col-sm-4 col-md-3 col-lg-2">
                 <div class="eboard-img">
                   <figure>
                     <div class="member-img">
@@ -365,114 +379,7 @@
 
 
 
-    <section id="directors" class="directors">
-      <header class="section-header">
-        <h3>General Board</h3>
-      </header>
-      <div class="container" id="memContainerDirectors">
-        <div class="row justify-content-center">
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-            <div class="eboard-img">
-              <figure>
-                <div class="member-img">
-                  <img src="assets/img/activemembers/Grace_Armstrong.jpeg" alt="">
-                </div>
-                <h4>Grace Armstrong</h4>
-                <p>Communication Chair</p>
-              </figure>
-            </div>
-          </div>
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-            <div class="eboard-img">
-              <figure>
-                <div class="member-img">
-                  <img src="assets/img/activemembers/Swaby_Stenneth.jpeg" alt="">
-                </div>
-                <h4>Stenneth Swaby</h4>
-                <p>Diversity, Equity, and Inclusion Chair</p>
-              </figure>
-            </div>
-          </div>
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-            <div class="eboard-img">
-              <figure>
-                <div class="member-img">
-                  <img src="assets/img/activemembers/Natalie_Pearce.JPG" alt="">
-                </div>
-                <h4>Natalie Pearce</h4>
-                <p>Fundraising Chair</p>
-              </figure>
-            </div>
-          </div>
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-            <div class="eboard-img">
-              <figure>
-                <div class="member-img">
-                  <img src="assets/img/activemembers/Aidan_Michaels.JPG" alt="">
-                </div>
-                <h4>Aidan Michaels</h4>
-                <p>Alumni Chair</p>
-              </figure>
-            </div>
-          </div>
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-            <div class="eboard-img">
-              <figure>
-                <div class="member-img">
-                  <img src="assets/img/activemembers/Varun_Pawar.JPG" alt="">
-                </div>
-                <h4>Varun Pawar</h4>
-                <p>Brotherhood Chair</p>
-              </figure>
-            </div>
-          </div>
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-            <div class="eboard-img">
-              <figure>
-                <div class="member-img">
-                  <img src="assets/img/activemembers/Ashlyn_Nolan.jpg" alt="">
-                </div>
-                <h4>Ashlyn Nolan</h4>
-                <p>Community Service Chair</p>
-              </figure>
-            </div>
-          </div>
-          <div class="eboard-item col-4 col-sm-3 col-md-2">
-          <div class="eboard-img">
-            <figure>
-              <div class="member-img">
-                <img src="assets/img/activemembers/Katelyn_Fecho.JPG" alt="">
-              </div>
-              <h4>Katelyn Fecho</h4>
-              <p>Community Service & Public Relations Chair</p>
-            </figure>
-          </div>
-        </div>
-        <div class="eboard-item col-4 col-sm-3 col-md-2">
-          <div class="eboard-img">
-            <figure>
-              <div class="member-img">
-                <img src="assets/img/activemembers/Filler.jpg" alt="">
-              </div>
-              <h4>Prisha Priyadarshini</h4>
-              <p>Recruitment Chair</p>
-            </figure>
-          </div>
-        </div>
-        <div class="eboard-item col-4 col-sm-3 col-md-2">
-          <div class="eboard-img">
-            <figure>
-              <div class="member-img">
-                <img src="assets/img/activemembers/Leonard_De_Pol.JPG" alt="">
-              </div>
-              <h4>Leonard De Pol</h4>
-              <p>Recruitment Chair</p>
-            </figure>
-          </div>
-        </div>
-      </div>
-        
-    </section>
+
 <br><br>
   
 
@@ -512,7 +419,7 @@
             var memberLinkedIn = cols[8];
           
             var memberHTML = `
-              <div class="active-item col-4 col-sm-3 col-md-2">
+              <div class="active-item col-6 col-sm-4 col-md-3 col-lg-2">
                 <div class="eboard-img">
                   <figure>
                     <div class="member-img">
@@ -577,7 +484,7 @@
               var alumniLinkedIn = cols[8];
             
               var alumniHTML = `
-                <div class="active-item col-4 col-sm-3 col-md-2">
+                <div class="active-item col-6 col-sm-4 col-md-3 col-lg-2">
                   <div class="eboard-img">
                     <figure>
                       <div class="member-img">
@@ -853,7 +760,9 @@ end-->
             </div>
             </div>
 end-->
+  </main><!-- End #members-content-wrapper -->
             <!-- ======= Footer ======= -->
+
             <footer id="footer" class="section-bg">
               <div class="container">
                 <div class="copyright">

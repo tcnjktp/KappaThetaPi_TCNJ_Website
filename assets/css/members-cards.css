@@ -1,0 +1,65 @@
+/* Member Cards Styling - Modern Rounded Design */
+.eboard-item figure,
+.director-item figure,
+.active-item figure {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.eboard-item .member-img img,
+.director-item .member-img img,
+.active-item .member-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eboard-item .member-img img:hover,
+.director-item .member-img img:hover,
+.active-item .member-img img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.eboard-item h4,
+.director-item h4,
+.active-item h4 {
+  font-family: var(--font-title);
+  font-size: 9px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.eboard-item p,
+.director-item p,
+.active-item p {
+  font-family: var(--font-body);
+  font-size: 9px;
+  color: #000;
+  margin: 0;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* Ensure proper spacing in grid */
+.eboard-item,
+.director-item,
+.active-item {
+  padding: 10px;
+}
+
+/* Fix for aura overlaying content */
+.member-section,
+.eboard,
+.directors,
+.actives {
+  position: relative;
+  z-index: 2;
+}
