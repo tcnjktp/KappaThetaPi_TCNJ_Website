@@ -593,8 +593,8 @@ h3 {
 
 #hero .hero-collage {
   position: relative;
-  width: 420px;
-  height: 360px;
+  width: 700px;
+  height: 600px;
 }
 
 #hero .hero-collage-item {
@@ -614,58 +614,58 @@ h3 {
 
 /* Pile of memories: larger sizes to fill the space, slight overlap */
 #hero .hero-collage-item-1 {
-  width: 200px;
-  height: 148px;
-  top: 0;
-  left: 55px;
+  width: 300px;
+  height: 222px;
+  top: 10px;
+  left: 170px;
   z-index: 1;
   transform: rotate(-3deg);
 }
 #hero .hero-collage-item-2 {
-  width: 118px;
-  height: 155px;
-  top: 20px;
+  width: 177px;
+  height: 232px;
+  top: 40px;
   left: 0;
   z-index: 3;
   transform: rotate(2deg);
 }
 #hero .hero-collage-item-3 {
-  width: 95px;
-  height: 122px;
+  width: 142px;
+  height: 183px;
   top: 0;
-  left: 238px;
+  left: 540px;
   z-index: 4;
   transform: rotate(4deg);
 }
 #hero .hero-collage-item-4 {
-  width: 155px;
-  height: 114px;
-  top: 105px;
-  left: 155px;
+  width: 232px;
+  height: 171px;
+  top: 220px;
+  left: 234px;
   z-index: 2;
   transform: rotate(-2deg);
 }
 #hero .hero-collage-item-5 {
-  width: 100px;
-  height: 73px;
-  bottom: 45px;
-  left: 25px;
-  z-index: 3;
+  width: 250px;
+  height: 182px;
+  bottom: 30px;
+  left: 10px;
+  z-index: 5;
   transform: rotate(3deg);
 }
 #hero .hero-collage-item-6 {
-  width: 115px;
-  height: 154px;
+  width: 172px;
+  height: 231px;
   bottom: 0;
-  left: 235px;
+  left: 470px;
   z-index: 2;
   transform: rotate(-4deg);
 }
 #hero .hero-collage-item-7 {
-  width: 88px;
-  height: 115px;
-  bottom: 60px;
-  right: 20px;
+  width: 132px;
+  height: 172px;
+  bottom: 150px;
+  right: -10px;
   z-index: 4;
   transform: rotate(1deg);
 }
@@ -702,43 +702,50 @@ h3 {
   }
 
   #hero .hero-collage {
-    width: 340px;
-    height: 290px;
+    width: 560px;
+    height: 480px;
   }
   #hero .hero-collage-item-1 {
-    width: 162px;
-    height: 120px;
-    left: 45px;
+    width: 243px;
+    height: 180px;
+    left: 136px;
+    top: 8px;
   }
   #hero .hero-collage-item-2 {
-    width: 95px;
-    height: 125px;
+    width: 142px;
+    height: 187px;
     left: 0;
+    top: 32px;
   }
   #hero .hero-collage-item-3 {
-    width: 77px;
-    height: 99px;
-    left: 193px;
+    width: 115px;
+    height: 148px;
+    left: 432px;
+    top: 0;
   }
   #hero .hero-collage-item-4 {
-    width: 126px;
-    height: 92px;
-    left: 125px;
+    width: 189px;
+    height: 138px;
+    left: 187px;
+    top: 176px;
   }
   #hero .hero-collage-item-5 {
-    width: 81px;
-    height: 59px;
-    left: 20px;
+    width: 200px;
+    height: 145px;
+    left: 8px;
+    bottom: 24px;
   }
   #hero .hero-collage-item-6 {
-    width: 93px;
-    height: 125px;
-    left: 190px;
+    width: 139px;
+    height: 187px;
+    left: 376px;
+    bottom: 0;
   }
   #hero .hero-collage-item-7 {
-    width: 71px;
-    height: 93px;
-    right: 16px;
+    width: 106px;
+    height: 139px;
+    right: -8px;
+    bottom: 120px;
   }
 }
 
@@ -752,43 +759,45 @@ h3 {
   }
 
   #hero .hero-collage {
-    width: 280px;
-    height: 240px;
+    width: 440px;
+    height: 400px;
   }
   #hero .hero-collage-item-1 {
-    width: 133px;
-    height: 99px;
-    left: 37px;
+    width: 200px;
+    height: 148px;
+    left: 100px;
   }
   #hero .hero-collage-item-2 {
-    width: 78px;
-    height: 103px;
-    left: 0;
+    width: 117px;
+    height: 154px;
+    left: -10px;
   }
   #hero .hero-collage-item-3 {
-    width: 63px;
-    height: 81px;
-    left: 159px;
+    width: 95px;
+    height: 121px;
+    left: 340px;
   }
   #hero .hero-collage-item-4 {
-    width: 103px;
-    height: 76px;
-    left: 103px;
+    width: 154px;
+    height: 114px;
+    left: 140px;
+    top: 140px;
   }
   #hero .hero-collage-item-5 {
-    width: 66px;
-    height: 48px;
-    left: 16px;
+    width: 165px;
+    height: 120px;
+    left: 5px;
   }
   #hero .hero-collage-item-6 {
-    width: 76px;
-    height: 102px;
-    left: 156px;
+    width: 114px;
+    height: 153px;
+    left: 310px;
   }
   #hero .hero-collage-item-7 {
-    width: 58px;
-    height: 76px;
-    right: 13px;
+    width: 87px;
+    height: 114px;
+    right: -10px;
+    bottom: 80px;
   }
 }
 
